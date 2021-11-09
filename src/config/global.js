@@ -25,6 +25,21 @@ export default {
         numero: '1',
         titulo: 'Indicadores ambientales',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo:
+              'Funciones y características de los indicadores ambientales',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Tipos de indicadores ambientales',
+            hash: 't_1_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',

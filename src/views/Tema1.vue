@@ -43,6 +43,54 @@
     #t_1_1.titulo-segundo.color-acento-contenido
       h2 1.1  Funciones y características de los indicadores ambientales
 
+    p(data-aos="fade") Para la elaboración de indicadores ambientales, es necesario definir un marco conceptual donde se concrete qué se quiere monitorear. La selección de dichos indicadores estará determinada por las diferentes escalas en los análisis de las etapas que se requiera hacer seguimiento. 
+
+    p.mb-4(data-aos="fade") Las principales funciones de los indicadores ambientales son: 
+
+    .tarjeta--container.row.mb-5
+      .col-md.tarjeta.color-primario.p-5
+        .row.justify-content-center.mb-4
+          .col-12
+            figure
+              img(src='@/assets/curso/tema1-tarj1.png', alt='Texto que describa la imagen')          
+        h4.text-center.text-white Llevar al mínimo las medidas o parámetros que se necesitan para realizar una representación de la realidad de la situación.
+      .col-md.tarjeta.color-acento-contenido.p-5
+        .row.justify-content-center.mb-4
+          .col-12
+            figure
+              img(src='@/assets/curso/tema1-tarj2.png', alt='Texto que describa la imagen')        
+        h4.text-center.text-white Facilitar los procesos de comunicación.  
+
+    p(data-aos="fade") Los indicadores ambientales se utilizan a diferentes escalas, tanto a nivel internacional, como nacional, estatal  y regional, cada una para diferentes fines, la mayoría de ellos son usados para determinar el estado del medio ambiente, para evaluar el desempeño de políticas ambientales y también para comunicar los progresos que se han adelantado en cuestión de desarrollo sustentable. 
+
+    p.mb-4(data-aos="fade") Sin embargo, para que estos indicadores puedan cumplir con estas ocupaciones deben tener ciertas características las cuales serán descritas a continuación: 
+
+    .row.justify-content-center(data-aos="fade-down") 
+      .col-md-10
+        .tarjeta.color-primario-degrade.px-md-5.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-3.col-lg-2
+              img.px-md-3(src="@/assets/curso/tema1-cta.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.col-md-9.mb-3.mb-sm-0.text-white
+                  h3.mb-1 Características indicadores ambientales
+                  p.mb-0.text-small Lo invitamos a conocer las características de los  
+                    br
+                    | indicadores ambientales en el siguiente anexo.
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Caracteristicas_indicadores_ambientales.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+    Separador
+
+    // 1.2
+    #t_1_2.titulo-segundo.color-acento-contenido
+      h2 1.2  Tipos de indicadores ambientales
+
+    p.mb-4(data-aos="fade") Los indicadores ambientales se pueden clasificar según los datos disponibles. Estos son los tres tipos de indicadores ambientales que existen:
+
 
 
 
