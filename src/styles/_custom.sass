@@ -1,0 +1,158 @@
+
+.etiqueta
+  padding: 1px 2px 2px
+italic
+  font-style: oblique  
+resaltado 
+  color: #FF8628
+  font-weight: 700  
+
+
+.bloque-fondo-tema1
+  background-image: url(../assets/curso/fondo-tema1.png)
+  background-repeat: no-repeat
+  background-size: 100% 45%
+  background-position: bottom
+.bloque-fondo-tema2
+  background-image: url(../assets/curso/fondo-tema1.png)
+  background-repeat: no-repeat
+  background-size: 100% 28%
+  background-position: bottom 
+.bloque-fondo-tema3
+  background-image: url(../assets/curso/fondo-tema1.png)
+  background-repeat: no-repeat
+  background-size: 100% 18%
+  background-position: bottom    
+.bloque-fondo-tema5
+  background-image: url(../assets/curso/fondo-tema5.png)
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: bottom   
+.bloque-fondo-tema6
+  background-image: url(../assets/curso/fondo-tema5.png)
+  background-repeat: no-repeat
+  background-size: 100% 80%
+  background-position: bottom    
+.bg-tarjeta-flip
+  background-image: url(../assets/curso/tarjeta-flip.svg)
+
+
+.bg-acento-contenido  
+  background-color: #FF8628
+.bg-acento-contenido95  
+  background-color: rgba(255,134,40,0.95) 
+.bg-primario25
+  background-color: rgba(0,158,131,0.25)
+.bg-primario10
+  background-color: rgba(0,158,131,0.1)  
+.color-primario-degrade
+  background: rgb(0,158,131)
+  background: linear-gradient(180deg, rgba(0,158,131,1) 0%, rgba(0,122,100,1) 100%)
+
+
+.cajon.color-primario
+  background-color: rgba(0,158,131,0.25)
+
+.cuadrado-texto
+  position: relative
+.cuadrado-texto:before
+  background-color: rgba(0,158,131,0.25)
+.cuadrado-texto:before
+  content: ""
+  display: block
+  position: absolute
+  top: 56%
+  bottom: -5%
+  left: 25%
+  right: 20%
+
+.tarjeta-flip
+  height: 200px
+.tarjeta-flip__img, .tarjeta-flip__contenido
+  display: flex
+  flex-direction: column
+  justify-content: center
+.tarjeta-flip__img img  
+  width: 90px
+  margin: 0 auto
+.tarjeta-flip.color-secundario .tarjeta-flip__contenido
+  background-color: #FFFB8B  
+.tarjeta-flip__contenido p, .tarjeta-flip__contenido h5
+  color: $color-sistema-texto !important
+
+.bloque-texto-a.color-acento-contenido
+  background-color: #E8E8E8
+
+.tabla-a th
+  background-color: #009E83 
+.tabla-a th, .tabla-a td
+  border-color: #009E83
+.sub-destacado
+  background-color: #e7f5f3
+  text-align: center
+  font-weight: 700
+.tabla-a .column-1
+  width: 33%
+.tabla-a .naranja 
+  background-color: #FF8628 !important
+  text-align: center
+.tabla-a .columna-1
+  width: 25%  
+.tabla-a td.bg-white  
+  background-color: #FFFFFF
+
+.acordion__activo
+  background-color: rgba(255,134,40,0.25)
+
+.linea-tiempo-b.color-primario .linea-tiempo-b__icon
+  background-color: transparent
+.linea-tiempo-b__line:after
+  border-left: 4px dotted #FF8628
+.linea-tiempo-b__icon img
+  z-index: 9  
+.linea-tiempo-b__icon:after
+  width: 26px;
+  height: 4px;
+  left: 87%;
+  top: 50%;
+  z-index: 0 
+  border-radius: 10px
+.linea-tiempo-b__line:after
+  top: 20%
+  bottom: 20%  
+.tema2-linea
+@media (min-width: 768px)
+  .linea-tiempo-b__row:nth-child(odd) .linea-tiempo-b__icon:after
+    right: 87%
+    left: auto
+    z-index: 0
+  .linea-tiempo-b__row:nth-child(odd) .linea-tiempo-b__content
+    text-align: left   
+  .tema2-linea .linea-tiempo-b__row:nth-child(odd) .linea-tiempo-b__content
+    text-align: left  
+    width: 210px
+    float: right
+
+
+
+
+
+// TARJETA HOVER TEMA 5
+.tarjeta-foto-hover
+  position: relative
+  overflow: hidden
+  &:hover
+    .tarjeta-foto-hover__tarjeta
+      transform: translateY(0%)
+
+  &__titulo
+    position: absolute
+    bottom: 0
+    width: 100%
+  &__tarjeta
+    transition: transform 0.3s ease-in-out
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 100%
+    transform: translateY(100%)  

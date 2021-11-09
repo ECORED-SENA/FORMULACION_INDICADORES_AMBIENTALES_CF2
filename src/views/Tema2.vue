@@ -1,141 +1,52 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.bloque-fondo-tema2
     
-    .titulo-principal
-      .h3 Producción Audiovisual
+    .titulo-principal.color-acento-contenido
+      .titulo-principal__numero.text-white
+        span 2
+      h1 Objetivos, metas y variables ambientales
+
+
+    .row
+      .col-md-7.mb-4(data-aos="fade-right")
+        p Los objetivos ambientales son aquellos que tienen por finalidad 
+          resaltado  mejorar la situación ambiental de alguna actividad, proyecto u obra.  
+          |  Se utilizan para disminuir los impactos ambientales que se generen. Deben tener una meta y todas estas deben encontrarse relacionadas con el objetivo previsto.
+        p Para alcanzar estos objetivos, se usan las medidas de actuación, las cuales deben ser medibles y cuantificables; por ejemplo, disminuir el uso del agua a 30 metros cúbicos/día. 
+        p.cuadrado-texto Dentro de los sistemas de gestión ambiental se deben definir objetivos claros al momento de iniciar el proceso, ya que estos definirán el rumbo de la organización, sus políticas y proyecciones a futuro.
+      .col-md-5.mb-4(data-aos="fade-left")
+        img(src='@/assets/curso/tema2-img.png', alt='Imagen decorativa')
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10
+        .row.justify-content-center.cajon.color-primario.p-4
+          .col-md-2.col-6
+            img.px-md-3(src='@/assets/curso/tema2-ico.svg', alt='Icono decorativo')
+          .col-md-9
+            p.mb-0 Los objetivos ambientales no solo están encaminados a procesos productivos, también se definen en ámbitos sociales y económicos, y dentro de las políticas del gobierno. Estos deben responder a normativas específicas, dentro de las cuales se establecen parámetros de medición y seguimiento a estos objetivos planteados.
+
+    p.mb-4(data-aos="fade") Las variables ambientales pueden ser agrupadas en diferentes áreas temáticas, así:
+
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10.tarjeta.bg-primario10.py-5.px-4.px-md-5
+        h2.text-center Variables ambientales
+        LineaTiempoB.color-primario.tema2-linea(:datos="datosLineaTiempoB")
+
     
-    #t_2_1.titulo-segundo
-      .h4 2.1 Infografía Animada
+    .row
+      .col-md-5.mb-4(data-aos="fade-right")
+        img(src='@/assets/curso/tema3-1-img.png', alt='Imagen decorativa')
+      .col-md-7.mb-4(data-aos="fade-left")
+        p Los estudios de impacto ambiental sirven para 
+          resaltado identificar e interpretar los impactos alcanzados
+          | y, con estos datos, poder tomar medidas que disminuyan las consecuencias negativas que alguna actividad pueda tener hacia la
+          resaltado salud humana y el equilibrio natural
+          | Por eso, estos estudios son indispensables para la toma de decisiones oportunas, que prevean las acciones a seguir.
+        p.cuadrado-texto Toda la información que se obtiene de ámbitos sociales, económicos y ambientales se transforma en indicadores, que permiten tener un modelo de la realidad y así cuantificar y comunicar de manera asertiva esta información hacia los tomadores de decisiones. Gracias a esto, los indicadores se convierten en una necesidad fundamental hacia el desarrollo sostenible.
+      
     
-    p.mb-4 Propuesta infográfica en animación que refuerce un tema y matice conceptos dados de manera creativa y con intención pedagógica.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2cnKTwQ85fg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_2.titulo-segundo
-      .h4 2.2 Video Motion
-
-    p.mb-4 Animación digital que crea la ilusión de movimiento mediante imágenes, fotografías, títulos, colores y diseños.
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/E7-BaX6ox9s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_3.titulo-segundo
-      .h4 2.3 Motion + Presentador
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/Ky73iaXuuTA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_4.titulo-segundo
-      .h4 2.4 Animación 2D
-
-    p.mb-4 Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
-
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/3b8VctSm558" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
-    #t_2_5.titulo-segundo
-      .h4 2.5 Video interactivo
-
-    p.mb-4 Visualización de videos con diferentes tipos de preguntas o anotaciones.
-
-    figure.mb-5
-      .video
-        iframe(src="https://vizia.co/videos/94d994c5fe93f1b08a60eb/embed" allowtransparency="true" frameborder="0" scrolling="no" width="640" height="390")
-
-    #t_2_6.titulo-segundo
-      .h4 2.6 Infografías
-
-    p.mb-4 Es una herramienta de comunicación de alta precisión, el cual tiene una narrativa gráfica con un texto corto acompañada de elementos visuales que tienen como intención de captar rápidamente la atención del lector. 
-
-    figure.mb-5
-      img(src='@/assets/curso/infografia-1.jpg', alt='Infografía Fundamentos del Servicio de Interpretación')
-      figcaption Fundamentos del Servicio de Interpretación
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Fundamentos del Servicio de Interpretación
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/fundamentos_del_servicio_de_Interpretacion.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-2.jpg', alt='Infografía Plan de Negocios')
-      figcaption Plan de Negocios
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Plan de Negocios
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/plan_de_negocios.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-3.jpg', alt='Infografía Cobertura poblacional')
-      figcaption Cobertura poblacional
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Cobertura poblacional
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/cobertura_poblacional.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-4.jpg', alt='Infografía Historia de las microfinanzas: Mohammad Yunus')
-      figcaption Historia de las microfinanzas: Mohammad Yunus
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Historia de las microfinanzas: Mohammad Yunus
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/historia_de_las_microfinanzas_mohammad_yunus.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-    
-    figure.mb-5
-      img(src='@/assets/curso/infografia-5.jpg', alt='Infografía Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica')
-      figcaption Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-
-    .tarjeta.tarjeta--morada.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              .h5.mb-0 Psicología de la moda: sexualidad, ropa mágica, ropa malévola y ropa neurótica
-              p Formato PDF
-            .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/psicologia_de_la_moda.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-file-download
-
 </template>
 
 <script>
@@ -143,6 +54,32 @@ export default {
   name: 'Tema2',
   data: () => ({
     // variables de vue
+    datosLineaTiempoB: [
+      {
+        titulo: 'Medio físico',
+        texto:
+          '<ul class="lista-ul--color"><li class="mb-0"><i class="fas fa-check"></i>Clima.</li><li class="mb-0"><i class="fas fa-check"></i>Composición geológica.</li><li class="mb-0"><i class="fas fa-check"></i>Hidrología.</li></ul>',
+        icono: require('@/assets/curso/tema2-ico-linea.svg'),
+      },
+      {
+        titulo: 'Medio biológico',
+        texto:
+          '<ul class="lista-ul--color"><li class="mb-0"><i class="fas fa-check"></i>Flora.</li><li class="mb-0"><i class="fas fa-check"></i>Fauna.</li><li class="mb-0"><i class="fas fa-check"></i>Ecosistemas.</li><li class="mb-0"><i class="fas fa-check"></i>Biodiversidad.</li></ul>',
+        icono: require('@/assets/curso/tema2-ico-linea2.svg'),
+      },
+      {
+        titulo: 'Medio económico y sociocultural',
+        texto:
+          '<ul class="lista-ul--color"><li class="mb-0"><i class="fas fa-check"></i>Usos del territorio.</li><li class="mb-0"><i class="fas fa-check"></i>Educación y cultura.</li><li class="mb-0"><i class="fas fa-check"></i>Infraestructuras.</li><li class="mb-0"><i class="fas fa-check"></i>Economía.</li></ul>',
+        icono: require('@/assets/curso/tema2-ico-linea3.svg'),
+      },
+      {
+        titulo: 'Medio perceptual',
+        texto:
+          '<ul class="lista-ul--color"><li class="mb-0"><i class="fas fa-check"></i>Paisaje.</li><li class="mb-0"><i class="fas fa-check"></i>Formaciones particulares.</li></ul>',
+        icono: require('@/assets/curso/tema2-ico-linea4.svg'),
+      },
+    ],
   }),
   mounted() {
     this.$nextTick(() => {
