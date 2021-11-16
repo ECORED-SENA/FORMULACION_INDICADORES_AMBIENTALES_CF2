@@ -32,9 +32,9 @@
             thead
               tr.text-white
                 th.column-1 
-                  h3.mb-0 ASPECTO
+                  h3.mb-0 Aspecto
                 th 
-                  h3.mb-0 CONCEPTO
+                  h3.mb-0 Concepto
             tbody
               tr
                 td.sub-destacado Nombre del indicador

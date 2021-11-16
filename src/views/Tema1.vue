@@ -11,7 +11,7 @@
     .row
       .col-md-7.mb-4(data-aos="fade-right")
         p Los indicadores están presentes prácticamente en todas las actividades que involucran toma de decisiones, dado que un indicador tiene como objetivo  
-          resaltado dar a entender o dar señales o indicios de algo  
+          resaltado dar a entender o dar señales o indicios de algo
           | ; en otras palabras, la información específica que se utiliza diariamente para conocer algo y tomar una decisión es un indicador.
         p.mb-4 Por ejemplo, la presión arterial y la temperatura corporal son indicadores del estado de salud de una persona, y cuando estos indicadores están por fuera de los parámetros regulares, se toma la decisión de visitar o no a un médico. 
         .row.justify-content-center.cajon.color-primario.p-3
@@ -140,7 +140,7 @@
         .row.justify-content-center.mb-4
           .col-md-5.mb-4.mb-md-0
             h4 Índice de sostenibilidad ambiental
-            p.mb-0 Es un instrumento utilizado para evaluar cuales son las formas de actividad humana que traen repercusiones directas al planeta. 
+            p.mb-0 Es un instrumento utilizado para evaluar cuáles son las formas de actividad humana que traen repercusiones directas al planeta. 
             p Algunos de los factores que se tienen en cuenta son:
             ul.lista-ul--color.acento-botones
               li.mb-1

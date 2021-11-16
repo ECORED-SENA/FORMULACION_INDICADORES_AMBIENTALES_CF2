@@ -24,7 +24,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord1.svg', alt='Protección del ambiente')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Son todas aquellas normas que tienen como propósito la prevención, reducción y eliminación de contaminaciones o afectaciones al medio ambiente. 
           h5.mb-0 Factores
           p Se tiene en cuenta el cambio de procesos para prevenir emisiones atmosféricas y, a su vez, controles y mediciones en laboratorios especializados.  
@@ -32,7 +32,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord2.svg', alt='Gestión de aguas residuales')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Estas normas están encaminadas a la prevención de la contaminación de aguas superficiales. 
           h5.mb-0 Factores
           p Las redes de transporte de aguas y el tratamiento de sus residuos. 
@@ -40,7 +40,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord3.svg', alt='Gestión de residuos')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Se refiere a las actividades que tienen como objetivo prevenir la generación de residuos y así poder disminuir las afectaciones que tiene el ambiente. 
           h5.mb-0 Factores
           p La recolección y transporte de los residuos es clave en este proceso, asimismo, lo es el tratamiento y eliminación de residuos peligrosos.     
@@ -48,7 +48,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord4.svg', alt='Protección y recuperación de suelos, aguas subterráneas y aguas superficiales')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Son todas aquellas medidas para prevenir las filtraciones de contaminantes en los suelos y cuerpos de agua. 
           h5.mb-0 Factores
           p Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
@@ -56,7 +56,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord5.svg', alt='Atenuación de ruidos y vibraciones')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Son las medidas que tienden a controlar los ruidos y vibraciones, en su mayoría, generadas por procesos industriales. 
           h5.mb-0 Factores
           p Se realizan modificaciones preventivas de los procesos en la fuente, como es la instalación de sistemas antirruido y vibraciones. 
@@ -64,7 +64,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord6.svg', alt='Protección de la biodiversidad y de los paisajes')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Se refiere a aquellas actividades destinadas a la conservación y rehabilitación de especies de fauna y flora. 
           h5.mb-0 Factores
           p Es la protección y rehabilitación de hábitats y especies que han sido intervenidos. 
@@ -72,7 +72,7 @@
         .col-md-2.col-6.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord7.svg', alt='Protección contra las radiaciones')
         .col-md-9
-          h5.mb-0 CONCEPTO
+          h5.mb-0 Concepto
           p Son todas aquellas normas que, mediante mediciones, pretenden reducir las consecuencias negativas que traen consigo las radiaciones. 
           h5.mb-0 Factores
           p Se tienen en cuenta el tratamiento y el transporte que tienen los residuos radiactivos.     

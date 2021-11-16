@@ -40,10 +40,10 @@
         img(src='@/assets/curso/tema3-1-img.png', alt='Imagen decorativa')
       .col-md-7.mb-4(data-aos="fade-left")
         p Los estudios de impacto ambiental sirven para 
-          resaltado identificar e interpretar los impactos alcanzados
-          | y, con estos datos, poder tomar medidas que disminuyan las consecuencias negativas que alguna actividad pueda tener hacia la
+          resaltado identificar e interpretar los impactos alcanzados 
+          | y, con estos datos, poder tomar medidas que disminuyan las consecuencias negativas que alguna actividad pueda tener hacia la 
           resaltado salud humana y el equilibrio natural
-          | Por eso, estos estudios son indispensables para la toma de decisiones oportunas, que prevean las acciones a seguir.
+          | . Por eso, estos estudios son indispensables para la toma de decisiones oportunas, que prevean las acciones a seguir.
         p.cuadrado-texto Toda la información que se obtiene de ámbitos sociales, económicos y ambientales se transforma en indicadores, que permiten tener un modelo de la realidad y así cuantificar y comunicar de manera asertiva esta información hacia los tomadores de decisiones. Gracias a esto, los indicadores se convierten en una necesidad fundamental hacia el desarrollo sostenible.
       
     
