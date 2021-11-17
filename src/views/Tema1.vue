@@ -15,7 +15,7 @@
           | ; en otras palabras, la información específica que se utiliza diariamente para conocer algo y tomar una decisión es un indicador.
         p.mb-4 Por ejemplo, la presión arterial y la temperatura corporal son indicadores del estado de salud de una persona, y cuando estos indicadores están por fuera de los parámetros regulares, se toma la decisión de visitar o no a un médico. 
         .row.justify-content-center.cajon.color-primario.p-3
-          .col-md-2.col-6
+          .col-md-2.col-4.mb-md-0.mb-4
             img(src='@/assets/curso/tema1-ico.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 La identificación adecuada de los indicadores del entorno es fundamental para una buena toma de decisiones, ya que una interpretación incorrecta de la información puede llevar a tomar decisiones equivocadas. Por ello, es de vital importancia definir que un indicador es una herramienta y no un fin en sí mismo.
@@ -32,7 +32,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
         .row.justify-content-center.cajon.color-primario.p-4
-          .col-md-2.col-6
+          .col-md-2.col-4.mb-md-0.mb-4
             img.px-md-3(src='@/assets/curso/tema1-ico2.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 Sin embargo, según la Organización para la Cooperación y el Desarrollo Económico OCDE, un indicador ambiental es un parámetro o un valor derivado de parámetros que proporciona información para describir el estado de un fenómeno, ambiente o área, con un significado que va más allá del directamente asociado con el valor del parámetro en sí mismo.
@@ -122,7 +122,7 @@
     p.mb-4(data-aos="fade") A continuación, se presentan algunos ejemplos de indicadores ambientales. Es importante tener presente que en cada segmento pueden surgir nuevas propuestas de indicadores. 
 
     .tarjeta.color-primario-degrade.text-white.py-5.mb-5
-      SlyderA(data-aos="fade-down")
+      SlyderA.px-4.px-md-0(data-aos="fade-down")
         .row.justify-content-center.mb-4
           .col-md-5.mb-4.mb-md-0
             h4 Índice de bienestar económico sostenible

@@ -103,7 +103,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10
         .row.justify-content-center.cajon.color-primario.p-4
-          .col-md-2.col-6
+          .col-md-2.col-4.mb-md-0.mb-4
             img.px-md-4(src='@/assets/curso/tema4-ico.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 Cabe resaltar que los indicadores ambientales tienen que elaborarse teniendo en cuenta las necesidades y problemáticas específicas de cada territorio, para no correr el riesgo de tener un indicador que esté desligado del contexto local. 

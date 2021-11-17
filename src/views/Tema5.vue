@@ -43,7 +43,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
         .row.justify-content-center.cajon.color-primario.p-4.mb-4
-          .col-md-2.col-6
+          .col-md-2.col-4.mb-md-0.mb-4
             img.px-md-3(src='@/assets/curso/tema5-ico.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 Se recomienda realizar un control exhaustivo al cumplimiento de todos los criterios que previamente fueron escogidos para cada uno de los indicadores propuestos, ya que, para ser aceptado, el indicador debe poder cumplir con todos estos criterios; al momento de la selección, si el indicador incumple con alguno, no podrá ser aceptado.

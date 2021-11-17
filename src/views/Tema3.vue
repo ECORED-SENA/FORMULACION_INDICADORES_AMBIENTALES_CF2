@@ -21,7 +21,7 @@
 
     AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-primario25")
       .row.justify-content-center(titulo="Protección del ambiente")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord1.svg', alt='Protección del ambiente')
         .col-md-9
           h5.mb-0 Concepto
@@ -29,7 +29,7 @@
           h5.mb-0 Factores
           p Se tiene en cuenta el cambio de procesos para prevenir emisiones atmosféricas y, a su vez, controles y mediciones en laboratorios especializados.  
       .row.justify-content-center(titulo="Gestión de aguas residuales")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord2.svg', alt='Gestión de aguas residuales')
         .col-md-9
           h5.mb-0 Concepto
@@ -37,7 +37,7 @@
           h5.mb-0 Factores
           p Las redes de transporte de aguas y el tratamiento de sus residuos. 
       .row.justify-content-center(titulo="Gestión de residuos")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord3.svg', alt='Gestión de residuos')
         .col-md-9
           h5.mb-0 Concepto
@@ -45,7 +45,7 @@
           h5.mb-0 Factores
           p La recolección y transporte de los residuos es clave en este proceso, asimismo, lo es el tratamiento y eliminación de residuos peligrosos.     
       .row.justify-content-center(titulo="Protección y recuperación de suelos, aguas subterráneas y aguas superficiales")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord4.svg', alt='Protección y recuperación de suelos, aguas subterráneas y aguas superficiales')
         .col-md-9
           h5.mb-0 Concepto
@@ -53,7 +53,7 @@
           h5.mb-0 Factores
           p Se usan para limpiar el suelo y cuerpos de agua de contaminantes que puedan traer repercusiones en la salud humana.
       .row.justify-content-center(titulo="Atenuación de ruidos y vibraciones")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord5.svg', alt='Atenuación de ruidos y vibraciones')
         .col-md-9
           h5.mb-0 Concepto
@@ -61,7 +61,7 @@
           h5.mb-0 Factores
           p Se realizan modificaciones preventivas de los procesos en la fuente, como es la instalación de sistemas antirruido y vibraciones. 
       .row.justify-content-center(titulo="Protección de la biodiversidad y de los paisajes")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord6.svg', alt='Protección de la biodiversidad y de los paisajes')
         .col-md-9
           h5.mb-0 Concepto
@@ -69,7 +69,7 @@
           h5.mb-0 Factores
           p Es la protección y rehabilitación de hábitats y especies que han sido intervenidos. 
       .row.justify-content-center(titulo="Protección contra las radiaciones")
-        .col-md-2.col-6.mb-4.mb-md-0
+        .col-md-2.col-5.mb-4.mb-md-0
           img.px-4(src='@/assets/curso/tema3-acord7.svg', alt='Protección contra las radiaciones')
         .col-md-9
           h5.mb-0 Concepto

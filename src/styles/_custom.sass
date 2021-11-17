@@ -60,15 +60,20 @@ resaltado
 .cuadrado-texto
   position: relative
 .cuadrado-texto:before
-  background-color: rgba(0,158,131,0.25)
+  background-color: rgb(0,158,131)
 .cuadrado-texto:before
   content: ""
   display: block
   position: absolute
+  opacity: 0.25
   top: 56%
   bottom: -5%
   left: 25%
   right: 20%
+  z-index: 0
+.cuadrado-texto__texto
+  position: relative 
+  z-index: 999
 
 .tarjeta-flip
   height: 200px

@@ -15,14 +15,16 @@
           resaltado  mejorar la situación ambiental de alguna actividad, proyecto u obra.  
           |  Se utilizan para disminuir los impactos ambientales que se generen. Deben tener una meta y todas estas deben encontrarse relacionadas con el objetivo previsto.
         p Para alcanzar estos objetivos, se usan las medidas de actuación, las cuales deben ser medibles y cuantificables; por ejemplo, disminuir el uso del agua a 30 metros cúbicos/día. 
-        p.cuadrado-texto Dentro de los sistemas de gestión ambiental se deben definir objetivos claros al momento de iniciar el proceso, ya que estos definirán el rumbo de la organización, sus políticas y proyecciones a futuro.
+        .cuadrado-texto
+          .cuadro-texto__texto
+            p Dentro de los sistemas de gestión ambiental se deben definir objetivos claros al momento de iniciar el proceso, ya que estos definirán el rumbo de la organización, sus políticas y proyecciones a futuro.
       .col-md-5.mb-4(data-aos="fade-left")
         img(src='@/assets/curso/tema2-img.png', alt='Imagen decorativa')
 
     .row.justify-content-center.mb-5(data-aos="fade-down")
       .col-md-10
         .row.justify-content-center.cajon.color-primario.p-4
-          .col-md-2.col-6
+          .col-md-2.col-4.mb-md-0.mb-4
             img.px-md-3(src='@/assets/curso/tema2-ico.svg', alt='Icono decorativo')
           .col-md-9
             p.mb-0 Los objetivos ambientales no solo están encaminados a procesos productivos, también se definen en ámbitos sociales y económicos, y dentro de las políticas del gobierno. Estos deben responder a normativas específicas, dentro de las cuales se establecen parámetros de medición y seguimiento a estos objetivos planteados.
